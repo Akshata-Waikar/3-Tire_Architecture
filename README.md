@@ -92,8 +92,7 @@ We also leverage Terraform provisioners (such as remote-exec) to automatically i
        - Create and download a .pem SSH key pair.
        - Allow port 22 (SSH) in the security group for secure remote access.  
 
- 2. Open in VS Code
-      Go on terraform official website and get command to install terraform in your server
+ 2.  Go on terraform official website and get command to install terraform in your server
 
 
  3. Create folders/files
