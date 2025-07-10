@@ -126,41 +126,32 @@ Each module folder should contains its own main.tf and variable.tf files
 ---
 
 
-##  
+##   Terraform Destroy Command
 
+- terraform destroy --auto-approve
 
 
 Verify AWS Console to ensure all resources are removed.
 
 ---
 
-## 📈 Benefits of Modular Terraform
+##  Benefits of Modular Terraform
 
-* 🔍 **Clarity** – Separation of concerns improves maintainability
-* ♻️ **Reusability** – Modules can be reused in different environments
-* 📏 **Consistency** – Predictable and parameterized deployments
-* 🚀 **Scalability** – Easy to add/remove components
-* 🤖 **Automation** – Full IaC workflow
-
----
-
-## 🧪 Future Enhancements
-
-* Add ALB for Web Tier
-* Enable Auto Scaling Groups
-* Use Secrets Manager or SSM for DB credentials
-* Enable HTTPS via ACM
-* Add CloudWatch for logging and monitoring
-* Use remote backend with S3 & DynamoDB
+- Automation: Infrastructure is deployed automatically with one command.
+- Reusability: Modules can be reused in different environments (dev, prod).
+- Version Control: All infrastructure code is stored in Git.
+- Scalability: Easy to add more instances using count.
+- Consistency: Reduces human error by codifying infrastructure.
 
 ---
 
-## ✅ Conclusion
+##  Conclusion
 
-This project provides a **modular, secure, and scalable** AWS infrastructure using Terraform. It is a strong base for production-ready applications and can easily be extended for high availability, automation, and DevOps pipelines.
+This project successfully demonstrates how to automate the deployment of a secure and scalable 3-tier architecture on AWS using Terraform. By following Infrastructure as Code (IaC) principles, the infrastructure is modular, reusable, and easy to manage. Using Terraform provisioners, the required software like NGINX and PHP was automatically configured on the respective tiers, ensuring seamless deployment and reduced manual effort.
+This hands-on project enhanced my practical understanding of cloud infrastructure, Terraform automation, and real-world deployment scenarios.
 
 ---
 
-**Author**: [Swatiz-cloud](https://github.com/Swatiz-cloud)
-📌 *Feel free to fork and contribute!*
+ 
+ Project Completed By : Akshata Waikar
 
