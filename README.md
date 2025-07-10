@@ -61,6 +61,7 @@ We also leverage Terraform provisioners (such as remote-exec) to automatically i
 
 
  3-Tier_Architecture/
+ 
 ├── main.tf               
 ├── variables.tf         
 ├── outputs.tf            
