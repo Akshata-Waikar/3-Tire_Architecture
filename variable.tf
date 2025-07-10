@@ -1,0 +1,12 @@
+variable "region" {}
+variable "vpc_cidr" {}
+variable "web_ami" {}
+variable "web_instance_type" {}
+variable "app_ami" {}
+variable "app_instance_type" {}
+variable "db_username" {}
+variable "db_password" {}
+variable "app_private_key" {}
+variable "app_key_name" {}
+variable "web_private_key" {}
+variable "web_key_name" {}
