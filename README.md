@@ -66,18 +66,23 @@ We also leverage Terraform provisioners (such as remote-exec) to automatically i
 ├── outputs.tf            
 ├── terraform.tfvars      
 ├── modules/
+
       ├── vpc/ 
              ├── main.tf
              ├── variable.tf
+             
       ├── web/  
              ├── main.tf
              ├── variable.tf
+             
       ├── app/              
              ├── main.tf
              ├── variable.tf
+             
       ├── db/               
              ├── main.tf
              ├── variable.tf
+             
       |── security/         
              ├── main.tf
              ├── variable.tf
@@ -97,19 +102,23 @@ We also leverage Terraform provisioners (such as remote-exec) to automatically i
 
  3. Create folders/files
     Create the following root files:
+    
         - main.tf
         - variables.tf
         - outputs.tf
         - terraform.tfvars
+    
     Inside 3-tier-terraform, create a folder named modules. Inside modules, create following directories:
+    
          - vpc
          - web
          - app
          - db
          - security
+    
 Each module folder should contains its own main.tf and variable.tf files
 
-4.  Initialize & Deploy Terraform
+5.  Initialize & Deploy Terraform
        - terraform init
        - terraform plan
        - terraform apply
