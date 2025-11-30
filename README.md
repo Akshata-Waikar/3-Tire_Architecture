@@ -19,7 +19,7 @@ We also leverage Terraform provisioners (such as remote-exec) to automatically i
 
 | Tool         | Purpose                        |
 |--------------|--------------------------------|
-| Terraform    | Infrastructure provisioning   |
+| Terraform    | Infrastructure provisioning    |
 | AWS EC2      | Compute instances              |
 | AWS RDS      | Managed MySQL DB               |
 | AWS VPC      | Networking and isolation       |
